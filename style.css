@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Fonty/Poppins-Bold.ttf);
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.842);
+    color: #fff;
+    font-family: Poppins;
+}
+
+.passwordGenerator__box {
+    width: 470px;
+    margin: 100px auto 0px auto;
+    padding: 15px 0px;
+}
+
+.passwordGenerator__box h1 {
+    font-size: 2.3em;
+}
+
+.passwordGenerator__box span {
+    color: rgb(0, 153, 255);
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(0, 153, 255);
+}
+
+.spodek {
+    margin-top: 70px;
+}
+
+.radek input {
+    outline: none;
+    border: none;
+    flex: 1;
+    padding-left: 15px;
+    background: transparent;
+    font-size: 1.3em;
+}
+
+.radek {
+    display: flex;
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 1.3em;
+    background: white;
+}
+
+.generete {
+    margin-top: 25px;
+    border: none;
+    outline: none;
+
+    color: #fff;
+    background: rgb(0, 153, 255);
+    cursor: pointer;
+
+    border-radius: 12px;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+.copy {
+    background-color: transparent;
+    background-image: url(images/copy.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
